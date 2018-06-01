@@ -4,19 +4,33 @@
 <head>
   <title>Initial CSS Practice</title>
   <style>
+
   h2, p{color:SkyBlue;}    /* Default */
   #thisline{color:green;}  /* id */
-  .second{color:orange;}   /* Class */
+  .second{color:orange;
+    background-color: black}
+    #bk{ background-image:url("http://efdreams.com/data_images/dreams/rain/rain-02.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: scroll;} /* Class */
   </style>
+
 
 
   <link href = "stylesheet.css"
   rel = "stylesheet"
   type = "text/css" />
-
+<div id = "bk"> background</div>
 </head>
 <body>
-
+<style>
+{
+  background-image:url("http://efdreams.com/data_images/dreams/rain/rain-02.jpg");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+</style>
   <h1 style = "color:blue">Is it raining?</h1>
   <h2>Is it pouring?</h2>
   <h2 id = "thisline">Hmm...</h2>
